@@ -13,7 +13,7 @@ app.include_router(auth_router)
 
 
 def main():
-    Base.metadata.create_all(engine)
+    # Base.metadata.create_all(engine)
     uvicorn.run(app, port=8000)
 
 
